@@ -58,6 +58,12 @@ Notice how I didn't include:
 
 And many other things. This is a design choice, but I don't mind expanding it to support those too (I made this in two weeks, so please understand).
 
+# Errors
+
+There is one recurrent error you might see (especially when using the tool on the SO/main site) and it's encoding error (don't recall the exact trace so I'll have to rerun it again, and I'll edit this out). But basically, I made a slight modification on the formatting to know where exactly it fail, when it does.
+
+I basically use the formatting above, but add `FAILED:` in front of each, so `COMMENT:` become `FAILED:COMMENT:` instead. I'll fix the encoding error later, don't worry...
+
 # Why
 
 Ah yes. There are a lot of reasons for this. The following is a non-exhaustive list of that:
