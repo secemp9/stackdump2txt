@@ -10,7 +10,7 @@ You can use this by doing:
 python3 stackdump2txt.py unix.stackexchange.com.7z
 ```
 
-Where `unix.stackexchange.com.7z` is one of the possible data dump from [here]() and is just an example.
+Where `unix.stackexchange.com.7z` is one of the possible data dump from [here](https://archive.org/details/stackexchange) and is just an example.
 You need to be on a Linux distro, doesn't matter which, but make sure you have:
 
 # Requirements
