@@ -1791,7 +1791,7 @@ else:
 	for x in sys.argv[1:]:
 		system("7za x {0} '-otestme' '-i!Posts.xml' '-i!Comments.xml'".format(x))
 	k = 'stackoverflow.com.md'
-	meow = 'sort --temporary-directory=/mnt/sda1/tmp'
+	meow = 'sort --temporary-directory=/tmp'
 
 #system("7za x {0} '-otestme' '-i!Posts.xml' '-i!Comments.xml'".format(sys.argv[1]))
 chdir('testme')
