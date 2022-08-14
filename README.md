@@ -72,3 +72,15 @@ Ah yes. There are a lot of reasons for this. The following is a non-exhaustive l
 - None had this kind of formatting decision, where the focus is all answers, all questions, all comments, all ids, and nothing else (As mentioned, I don't mind supporting those though but this was done hastily)
 - I did find some that could have worked if I fiddled with it enough, but it depends on third-party libraries, such as panda ***too much***. It also didn't take into account the huge memory usage!
 - Yes, I used html2text (a fork of it, which I'll credit, don't worry) both because I wanted a pure python implementation, ***and*** because lxml and bs4 (beautifulsoup) didn't give a satisfactory result (it had errors with some HTML encoding, admittedly)
+
+# TODO:
+
+- add credits where it's due (html2text's fork I found!)
+- remove needs for unix tools (sort, rm, etc). Might be hardest for sort
+- remove uneeded html2text's code (eg: css related function, etc).
+- make it faster (there dozen of ways, will list later)
+- support more than just ids, question, title, answers and comments in the formatting.
+- make some Class? I prefer functions but gotta do what you gotta do...
+- make it into a module? not sure for that one
+- bencnhmarking/stats
+- fix html encoding errors once and for all (there are a couples coming from python's local libs, so...)
