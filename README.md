@@ -75,7 +75,7 @@ Ah yes. There are a lot of reasons for this. The following is a non-exhaustive l
 
 # TODO:
 
-- add credits where it's due (html2text's fork I found!)
+- add credits where it's due (html2text's fork I found!): DONE
 - remove needs for unix tools (sort, rm, etc). Might be hardest for sort
 - remove uneeded html2text's code (eg: css related function, etc).
 - make it faster (there dozen of ways, will list later)
@@ -84,3 +84,6 @@ Ah yes. There are a lot of reasons for this. The following is a non-exhaustive l
 - make it into a module? not sure for that one
 - bencnhmarking/stats
 - fix html encoding errors once and for all (there are a couples coming from python's local libs, so...)
+
+# CREDIT:
+https://github.com/Alir3z4/html2text
